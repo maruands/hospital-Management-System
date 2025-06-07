@@ -28,7 +28,7 @@ public class PatientService {
 
     public ResponseEntity<?> createPatient(PatientRequest request) {
 
-        Patient patient = new Patient();
+        Patient patient = new Patient(); //entity
         patient.setFirstName(request.getFirstName());
         patient.setMiddleName(request.getMiddleName());
         patient.setLastName(request.getLastName());

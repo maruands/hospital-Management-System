@@ -1,9 +1,6 @@
 package com.hospital.hospital.Requests;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import lombok.*;
-
-import java.util.Date;
 
 
 public class PatientRequest {

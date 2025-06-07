@@ -10,7 +10,9 @@ import com.hospital.hospital.Repository.StaffRepository;
 import com.hospital.hospital.Repository.TriageRepository;
 import com.hospital.hospital.Requests.TriageRequest;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
 
+@Service
 public class TriageSevice {
 
     private final PatientRepository patientRepository;
