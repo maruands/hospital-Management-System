@@ -9,6 +9,14 @@ public class Staff {
     @GeneratedValue(strategy = GenerationType.IDENTITY) // Change to IDENTITY for MySQL
     private Integer id;
 
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
     private String honorifics, firstName, lastName, gender, email, address, phoneNumber;
 
     public void setFirstName(String firstName) {
